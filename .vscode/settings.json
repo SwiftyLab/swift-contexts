@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.build": true,
+        "**/.swiftpm": true,
+        "**/.docc-build": true,
+        "**/node_modules": true,
+        "Package.resolved": true
+    },
+    "lldb.launch.expressions": "native",
+}

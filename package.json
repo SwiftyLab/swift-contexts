@@ -1,0 +1,31 @@
+{
+    "name": "swift-contexts",
+    "version": "1.0.0",
+    "summary": "A no-boilerplate dependency management library for Swift.",
+    "description": "swift-contexts allows managing dependencies in an ergonomic and safe way.",
+    "homepage": "https://github.com/SwiftyLab/swift-contexts",
+    "license": "MIT",
+    "author": {
+      "name": "Soumya Ranjan Mahunt",
+      "email": "soumya.mahunt@gmail.com",
+      "url": "https://twitter.com/soumya_mahunt"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SwiftyLab/swift-contexts.git"
+    },
+    "private": true,
+    "dependencies": {
+      "swiftylab-ci": "github:SwiftyLab/ci"
+    },
+    "scripts": {
+      "build": "npm exec --package=swiftylab-ci -- build.js",
+      "test": "npm exec --package=swiftylab-ci -- test.js",
+      "archive": "echo implement",
+      "generate": "echo implement",
+      "format": "npm exec --package=swiftylab-ci -- format.js",
+      "preview-doc": "npm exec --package=swiftylab-ci -- preview-doc.js Contexts",
+      "build-doc": "npm exec --package=swiftylab-ci -- build-doc.js Contexts",
+      "serve-doc": "npm exec --package=swiftylab-ci -- serve-doc.js Contexts"
+    }
+  }
