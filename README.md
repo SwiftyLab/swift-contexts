@@ -15,7 +15,7 @@ A no-boilerplate dependency management library for Swift.
 
 When following [Single responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle) in [SOLID](https://en.wikipedia.org/wiki/SOLID) principle, code is divided into multiple types/functions each representing a responsibility/goal, i.e. storage access, database and networking, scheduling etc.
 
-These types/functions can depend on each other and it is important these dependences need to be controlled to deterministically test each responsibility, free from side effects from external components, i.e. file systems, network connectivity and speed, server uptime etc.
+These types/functions can depend on each other and it is important these dependencies need to be controlled to deterministically test each responsibility, free from side effects from external components, i.e. file systems, network connectivity and speed, server uptime etc.
 
 This library addresses this concern by allowing controlling dependencies with following features:
 
